@@ -17,10 +17,10 @@ body {
 
 .main {
     float: left;
-    height: 80vh;
+    min-height: 80vh;
     width: 100vw;
     clear: both;
-    overflow-y: scroll;
+/*    overflow-y: scroll;*/
 }
 
 .header {
@@ -41,4 +41,5 @@ a {
 
 .row {
     clear:both;
+    padding-top: 20px;
 }
