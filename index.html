@@ -4,57 +4,151 @@
     <meta charset="UTF-8">
     <title>Fantasy Traveller</title>
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700italic,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'">
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/helpers.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
 </head>
 <body>
-    <div class="header">
 
-    </div>
-
-    <div class="main">
-        <h1 class="center">Main Page</h1>
-
-        <div class="col-1-3">
-            <h2 class="center">Basics</h2>
-            <h3>What is a role-playing game ?</h3>
-            <h3>What do I need to play ?</h3>
-            <h3>Making a character</h3>
-            <h3>Examples</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="text-center">Main Page</h1>
         </div>
-
-        <div class="col-1-3">
-            <h2 class="center">Paths</h2>
-            <ul class="paths-list stripped-list">
-                <li><a href="paths/imperial-mage.html">Imperial Mage</a></li>
-                <li><a href="paths/imperial-civis.html">Imperial Civis</a></li>
-                <li><a href="paths/imperial-civis.html">Imperial Legionair</a></li>
-                <li>Duchy </li>
-                <li>Barbarian Thrall</li>
-                <li>See full list</li>
-            </ul>
-        </div>
-
-        <div class="col-1-3">
-            <h2 class="center">Skills</h2>
-            <ul class="skill-list stripped-list">
-                <li>Melee(*)</li>
-                <li>Healing Magic</li>
-                <li>Fire Magic</li>
-                <li>Necromancy</li>
-                <li>Animals(*)</li>
-                <li>Survival(*)</li>
-                <li>Persuade</li>
-                <li>See full list</li>
-            </ul>
+        <div class="row">
+            <div class="col-md-4">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td class="text-center">
+                                Basics
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                What is a role-playing game ?
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                What do I need to play ?
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Making a character
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Examples
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td class="text-center">
+                                Paths
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="paths/imperial-mage.html">Imperial Mage</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="paths/imperial-civis.html">Imperial Civis</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="paths/imperial-civis.html">Imperial Legionair</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Duchy Serf
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Barbarian Thrall
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="">See full list</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td class="text-center">
+                                Skills
+                            </td>
+                        </tr>
+                    </thead>  
+                    <tbody>
+                        <tr>
+                            <td>
+                                Melee(*)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Healing Magic
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Fire Magic
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Necromancy
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Animals(*)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Survival(*)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Persuade
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="">See full list</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-
-    <div class="footer">
-        <p>&copy; 2015 George Bora</p>
-    </div>
+    <footer class="footer">
+        <div class="container text-center">
+            &copy; 2016 George Bora
+        </div>
+    </footer>
 </body>
 </html>

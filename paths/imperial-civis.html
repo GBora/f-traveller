@@ -2,70 +2,89 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Imperial Civis</title>
+        <title>Imperial Mage</title>
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700italic,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'">
-        <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
-        <link rel="stylesheet" href="../css/layout.css">
-        <link rel="stylesheet" href="../css/grid.css">
-        <link rel="stylesheet" href="../css/helpers.css">
+        <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="../css/main.css">
     </head>
     <body>
-        <div class="header">
-
-        </div>
-
-        <div class="main">
-            <h1 class="center">Imperial Civis</h1>
+        <div class="container">
+            <div class="row text-center">
+                    <h1>Imperial Civis</h1>
+            </div>
             <div class="row">
-                <div class="col-1-3">
-                    <h2>Description</h2>
+                <div class="col-md-4">
+                    <h2 class="text-center">Description</h2>
 
-                    <p>Official battle mages of the Empire, Imperial Mages are feared in the Legions for their power and yet respected for the magical support they can offer to the troops they lead.</p>
+                    <p>Citizens of the Empire, and the ones that ultimately are to praise or blame for it's success.</p>
 
                     <p>Trained in special War Colleges which exist in only the most secure and advanced Empire cities and bases, Imperial mages receive a rich education focusing on leading troops, tactics, strategy, meele, harnesing their arcane energies into potent blasts and of course magic.</p>
 
-                    <p>Choosing to specialise as either a Red, Black or White Mage will lead the inniatite to learning the misteries of either Fire Magic, Necromancy or Healing Magic.</p>
+                    <p>Choosing to specialise as either a Red, Black or White Mage will lead the inniatite to learning the mysteries of either Fire Magic, Necromancy or Healing Magic.</p>
 
                     <p>Beyond their duties in dominating the battlefield with magic, Imperial Mages also offer their counsel to the Legion's General on matters of strategy or dealing with magical phenomena, they are also asinged to War Colleges as pure scholars where they advance the Empire's understanding of magic.</p>
-                </div>
+                </div> 
 
-                <div class="col-1-3">
-                    <img class="white-mage-img" src="../resources/toga.png" alt="imperial civis">
-                </div>
+                <div class="col-md-4">
+                     <img class="imperial-mage-image" src="../resources/white-mage.jpg" alt="white mage">
+                </div>  
 
-                <div class="col-1-3">
-                    <h2>Requirements</h2>
-                    <h3>Faction Relationship: Empire Neutral+</h3>
-                    <p>Imperial Mages are part of the officer corps for the Imperial Legions, thus access to the War Colleges where the mages receive their training will only be given to loyal citizens of the Empire or exceptional foreigners who are ready to pledge themselves into the Empire's service.</p>
+                <div class="col-md-4">
+                    <h2 class="text-center">Requirements</h2>
+
+                    <h3>Faction Relationship: Empire Neutral</h3>
+
+                    <p>As they are the citizens of the Empire, the civis are expect to at least nominally follow it's rules and be in good standing with the Imperial Government, the local officials might not keep track of the day to the life of every countryman but high crimes and betrayals can easily lead to all rights and privileges being thrown aside as the Empire no longer considers you a citizen</p>
+
+                    <h3>Attribute: End 5+</h3>
+
+                    <p>Surviving in the empire is easier than in some other human nations but it is no easy task, one must be ready to toil either with the body or the mind.</p>
+
+                    <h3>Qualification Roll: None/Soc 5+</h3>
+
+                    <p>If born in the Empire you are automatically considered a citizen, in the cases that one wants to become a citizen or needs to due to their lands being conquered or colonised by the Empire, they can swear an Oath of Allegiance and renounce their old citizenship they will then be tested by the agents of the local governor and depending on the result be admitted or not.</p>
+
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-1-2">
-                    <table class="table stripped-table">
-                        <caption>Specializations</caption>
+                <div class="col-md-6">
+                    <table class="table table-striped">
+                        <caption>
+                            Specializations
+                        </caption>
                         <tbody>
                             <tr>
-                                <td>Paganus</td>
-                                <td>Citizens living in the country side, the farmers, hunters and outdoorsmen that make up the bulk of Imperial Society, adept at living of the land and hardy.</td>
+                                <td>
+                                    Red Mage
+                                </td>
+                                <td>
+                                    Masters of Fire Magic, incinerating any foes of the Legions.
+                                </td>
                             </tr>
 
                             <tr>
-                                <td>Colonist</td>
-                                <td>Masters of Necromancy, they target the enemy leadership with curses.</td>
+                                <td>
+                                    Black Mage
+                                </td>
+                                <td>
+                                    Masters of Necromancy, they target the enemy leadership with curses.
+                                </td>
                             </tr>
-
                             <tr>
-                                <td>Scholar</td>
-                                <td>Masters of Healing Magic, their healing prowes turns the Legion into an unstopable force.</td>
+                                <td>
+                                    White Mage
+                                </td>
+                                <td>
+                                    Masters of Healing Magic, their healing prowes turns the Legion into an unstopable force.
+                                </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-
-                <div class="col-1-2">
-                    <table class="table stripped-table">
+                
+                <div class="col-md-6">
+                    <table class="table table-striped">
                         <caption>Path Progress</caption>
                         <thead>
                             <tr>
@@ -96,10 +115,9 @@
                     </table>
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-1-1">
-                    <table class="table stripped-table">
+                    <div class="col-md-12">
+                                            <table class="table table-striped">
                         <caption>Training</caption>
                         <thead>
                             <tr>
@@ -167,12 +185,11 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                    </div>
             </div>
-
             <div class="row">
-                <div class="col-1-1">
-                    <table class="table stripped-table">
+                <div class="col-md-12">
+                    <table class="table table-striped">
                         <caption>Unfortunate Events</caption>
                         <thead>
                             <tr>
@@ -232,10 +249,9 @@
                     </table>
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-1-1">
-                    <table class="table stripped-table">
+                <div class="col-md-12">
+                        <table class="table table-striped">
                         <caption>Opportunities</caption>
                         <thead>
                             <tr>
@@ -296,10 +312,9 @@
                     </table>
                 </div>
             </div>
-            
             <div class="row">
-                <div class="col-1-1">
-                <table class="table stripped-table">
+                <div class="col-md-12">
+                    <table class="table table-striped">
                         <caption>Ranks</caption>
                         <thead>
                             <tr>
@@ -383,11 +398,13 @@
                         </tbody>
                     </table>
                 </div>
+                </div>
             </div>
         </div>
-
-        <div class="footer">
-            <p>&copy; 2015 George Bora</p>
-        </div>
+        <footer class="footer">
+            <div class="container text-center">
+                &copy; 2016 George Bora
+            </div>
+        </footer>
     </body>
 </html>
